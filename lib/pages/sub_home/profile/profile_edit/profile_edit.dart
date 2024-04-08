@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:symmatric/pages/sub_home/profile/profile_edit/password_account.dart';
@@ -18,7 +16,6 @@ class _ProfileEditState extends State<ProfileEdit> {
   final _identity = TextEditingController();
   final _birthdate = TextEditingController();
   String? _gender;
-  bool _ismale = true;
 
   final List<String> Gender = ['Male' , 'Female' , 'Other' , 'None'];
 
